@@ -1,0 +1,76 @@
+Review
+
+    1. What is software? Software is a compilation of programs to make one 
+    program to perform a task(s).
+
+    2. Why is software important? Software is used in more places than we 
+    realize. It basically runs to world and as such is extremely important.
+
+    3. Where is software important? Software is important in every place that It
+    is found.
+
+    4. What could go wrong if some software fails? List some examples. Well, if
+    software were to fail in our banking system, people could lose access to 
+    their funds. If software in a car were to fail, accidents could happen, 
+    which could cause injury and death. 
+
+    5. Where does software play an important role? List some examples. Software 
+    helps us predict the weather and understand weather patterns. Software helps
+    to run our farming equipment, which provides food to the world. Software 
+    helps us run a lot of different types of equipment in general, which is 
+    important in our current civilization.
+
+    6. What are some jobs related to software development? Programmer, tester,
+    software engineer, product manager/owner, electrical engineer, etc.
+
+    7. What's the difference between computer science and programming? Computer
+    science is understanding the science behind how programming works. Computer
+    programming is just writing the code to make the idea work.
+
+    8. Where in the design, construction, and use of a ship is software used?
+    It is used from the beginning to the end. It is used to help design and 
+    build the ship. It is used to run the ship and keep things going, so humans
+    can get a break.
+
+    9. What is a server farm? It is a bunch of servers all tied to each other,
+    typically located in some sort of large warehouse. The whereabouts and 
+    details of the warehouse are kept from the general public for security 
+    reasons. 
+
+    10. What kinds of queries do you ask online? Google searches, health 
+    records, weather data, basically anything that is connected to another 
+    database not located at your local machine.
+
+    11. What are some uses of software in science? Software helps to analyze 
+    mass amounts of data, which would be impossible for humans to do since there
+    is so much data to analyze because software helps to produce and monitor 
+    that data. So data gathering and analyzation.
+
+    12. What are some uses of software in medicine? There are many machines used
+    in medicine, such as CT scanner, radiology equipment, etc.
+
+    13. What are some uses of software in entertainment? Software is used to 
+    create animation, edit videos and sound, etc.
+
+    14. What general properties do we expect from good software? We expect the 
+    software to be easy to use and always do what we expect it to do.
+
+    15. What does a software developer look like? This is someone who can take 
+    ideas and requirements and transform them into code that produces a program
+    that is useable.
+
+    16. What are the stages of software development? Analysis, Design,
+    Programming, Testing.
+
+    17. Why can software development be difficult? It is often hard to make a 
+    computer do exactly what you want to do. You have to figure out how to make
+    a simple machine do something difficult.
+
+    18. What are some uses of software that makes your life easier? Smart home
+    functions allow me to turn outlets on and off from a distance with my phone.
+
+    19. What are some uses of software that make your life difficult? Cars have
+    software that make it difficult to fix the problem when something doesn't
+    do what it is supposed to. 
+
+Exercises
