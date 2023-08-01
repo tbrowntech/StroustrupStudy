@@ -16,4 +16,23 @@ Review                                                                         E
     5. What is the purpose of the compiler? - Translates source code into 
     machine code (code that the computer can understand and execute.
 
-    6. 
+    6. What is the purpose of the #include directive? - Essentially this tells
+    the code to look to certain libaries (facilities).
+
+    7. What does a .h suffix at the end of a file name signify in C++? - This is
+    a header file.
+
+    8. What does the linker do for your program? - It links code together to 
+    become an executable program.
+
+    9. What is the difference between a source file and an object file? - A 
+    source file is the C++ code, an obj file is the machine code that the 
+    computer is able to understand.
+
+    10. What is an IDE and what does it do for you? - Integrated Development
+    Environment (code editor), helps a programmer to develop code, highlights
+    text to easily see different aspects of code, etc.
+
+    11. If you understand everything in the textbook, why is it necessary to
+    practice? - To become a professional, you need to continue to practice to
+    get better. Programming is a perishable skill.
