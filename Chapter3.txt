@@ -1,3 +1,14 @@
-Review                                                                         E
+Review                                                                         
 
-    1. What is meant by prompt? - 
+    1. What is meant by prompt? - This is where characters can be input into the
+    console.
+
+    2. Which operator do you use to read into a variable? - =.
+
+    3. If you want the user to input an integer value into your program for a 
+    variable named number, what are two lines of code you could write to ask the 
+    user to do it and to input the value into your program? 
+    - cout << "What is the integer value? ";
+    - cin >> number;
+
+    4. 
