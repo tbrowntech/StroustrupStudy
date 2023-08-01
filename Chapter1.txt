@@ -103,4 +103,20 @@ Exercises
     7. Identify five tasks for which computers are not used today, but for
     which you think they will be used at some time in the future. Write a 
     few sentences to elaborate on each one that you choose. - cooking,
-    
+    truck driver, taxi driver, construction, farmer.
+
+    8. Write an explanation (at least 100 words, but fewere than 500) of why
+    you would like to be a computer programmer. If, on the other hand, you 
+    are convinced that you would not like to be a programmer, explain that.
+    In either case, present well-thought-out, logical arguments. - I am 
+    currently a software engineer. I love this job because I get to work 
+    through problems in code, work with and learn from others, create code
+    that solves problems, etc.
+
+    9. Write an explanation (at least 100 words, but fewer than 500) of what
+    role other than programmer you'd like to play in the computer industry
+    (independently of whether "programmer" is your first choice). - Another
+    role that interests me at this time is that of a scrum master. A scrum
+    master is someone who helps coach a team of developers so they can be 
+    the most productive possible as a team to complete the work they have
+    on their backlog.
