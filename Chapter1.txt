@@ -120,3 +120,24 @@ Exercises
     master is someone who helps coach a team of developers so they can be 
     the most productive possible as a team to complete the work they have
     on their backlog.
+
+    10. Do you think computers will ever develop to be concious, thinking
+    beings, capable of competing with humans? Write a short paragraph (at
+    least 100 words) supporting your position. - No, I don't think that 
+    computers will become concious, thinking beings that can compete with
+    humans. Computers are hardware, and are not capable for thinking on 
+    their own as a human does. They had to be created by humans. Humans 
+    don't have enough power to create life, other than procreation.
+
+    11. List some characteristics that most successful programmers share.
+    Then list some characteristics that programmers are popularly assumed    
+    to have. - the ability to think through a problem and come up with a 
+    solution, being able to work with others, humble enough to ask 
+    questions when they're stuck. Popularly assumed would be not social,
+    likes to work alone, etc. 
+
+    12. Identify at least five kinds of applications for computer programs
+    mentioned in this chapter and pick the one that you find the most
+    interesting and that you would most likely want to participate in
+    someday. Write a short paragraph (at least 100 words) explaining why
+    you chose the one you did. - 
