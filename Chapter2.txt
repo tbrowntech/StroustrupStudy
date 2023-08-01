@@ -1,4 +1,4 @@
-Review                                                                         E
+Review                                                                         
   
     1. What is the purpose fo the "Hello, World!" program? - It helps people new 
     to coding see how a program is written and how it writes to the console. It
