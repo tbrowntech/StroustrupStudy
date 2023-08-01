@@ -3,3 +3,17 @@ Review                                                                         E
     1. What is the purpose fo the "Hello, World!" program? - It helps people new 
     to coding see how a program is written and how it writes to the console. It
     helps them become familiar with writing a program in a given language.
+
+    2. Name the four parts of a function. - Return type, name, parameter list,
+    function body.
+
+    3. Name a function that must appear in every C++ program. - Main
+
+    4. In the "Hello, World!" program, what is the purpose of the line 
+    return 0;? - This tells the compiler that the program has reached the end
+    successfully.
+
+    5. What is the purpose of the compiler? - Translates source code into 
+    machine code (code that the computer can understand and execute.
+
+    6. 
