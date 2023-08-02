@@ -11,4 +11,34 @@ Review
     - cout << "What is the integer value? ";
     - cin >> number;
 
-    4. 
+    4. What is \n called and what purpose does it serve? - It is a newline and 
+    it prints the text after it on a new line in the console.
+
+    5. What terminates input into a string? - Whitespace.
+
+    6. What terminates input into an integer? - Any non-numeric character
+
+    7. How would you write  
+        cout << "Hello, ";
+        cout << first_name;
+        cout << "!\n";
+    
+    as a single line of code? - 
+        cout << "Hello, " << first_name << "!\n";
+
+    8. What is an object? - Some memory that holds a value of a given type.
+
+    9. What is a literal? - A constant value that is assigned to a constant 
+    variable.
+
+    10. What kinds of literals are there? - Integer, float, character, string,
+    boolean.
+
+    11. What is a variable? - A named object.
+
+    12. What are typical sizes for a char, an int, and a double? - Char: 1 byte,
+    int: 2 or 4 bytes, double: 8 bytes.
+
+    13. What measures do we use for the size of small entities in memory, such 
+    as ints and strings? - 
+
