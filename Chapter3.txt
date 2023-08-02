@@ -40,5 +40,21 @@ Review
     int: 2 or 4 bytes, double: 8 bytes.
 
     13. What measures do we use for the size of small entities in memory, such 
-    as ints and strings? - 
+    as ints and strings? - bits
+
+    14. What is the difference between = and ==? - = is the assignment operator,
+    where == is a comparison operator (is equal to).
+
+    15. What is a definition? - A statement that defines a variable and can 
+    assign a value to a variable.
+
+    16. What is an initialization and how does it differ from an assignment? - 
+    An initialization is when the variable is created, the assignment is when it
+    is given a value.
+
+    17. What is string concatenation and how do you make it work in C++? - It is 
+    the combination of two strings and it is done with the + operator.
+
+    18. Which of the following are legal names in C++? If a name is not legal, 
+    why not? This_little_pig
 
