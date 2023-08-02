@@ -56,5 +56,26 @@ Review
     the combination of two strings and it is done with the + operator.
 
     18. Which of the following are legal names in C++? If a name is not legal, 
-    why not? This_little_pig
+    why not? - This_little_pig: technically legal, typically reserved for a type 
+    name; This_1_is fine: not legal, has a space and starts with a capital; 
+    2_For_1_special: not legal, starts with a number; latest thing: not legal,
+    has a space; the_$12_method: not legal, has a special character; 
+    _this_is_ok: technically legal, but reserved for system names, don't write
+    these yourself; MiniMineMine: technically legan, typically reserved for a 
+    type name; number: legal; correct?: not legal, using a special character.
+
+    19. Give five examples of legal names that you shouldn't use because they 
+    are likely to cause confusion. - character, boolean, bitAnd, bitOr, andEq.
+
+    20. What are some good rules for choosing names? - not too long but 
+    descriptive, use underscores to separate words where possible.
+
+    21. What is type safety and why is it important? - When objects are used 
+    only according to the rules for their type. 
+
+    22. Why can conversion from double to int be a bad thing? - Double is bigger
+    than int so things may be lost when the conversion is made.
+
+    23. Define a rule to help decide if a conversion from one type to another is
+    safe or unsafe. - Use initializers and check the value before assigning.
 
