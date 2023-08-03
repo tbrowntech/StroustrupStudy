@@ -6,8 +6,19 @@
 using std::cout;
 using std::cin;
 using std::endl;
+using std::string;
 
-int main() {
-    // use an array to sort the values in the array and then print them in an ordered list
-    return 0;    
+int main()
+{
+    int number;
+    cout << "Enter a number: ";
+    cin >> number;
+
+    if (number % 2 == 0) {
+        cout << "The number " << number << " is even.\n";
+    } else {
+        cout << "The number " << number << " is odd.\n";
+    }
+
+    return 0; 
 }
