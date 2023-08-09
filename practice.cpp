@@ -5,8 +5,13 @@
 using namespace std;
 
 int main() {
-    char character = 'a';
-    for (int integer = 97; integer<123; ++integer && ++character) {
-        cout << character << '\t' << integer << '\n'; 
+    char characterU = 'A';
+    for (int integerU = 65; integerU < 91; ++integerU && ++characterU) {
+        cout << characterU << '\t' << integerU << '\n';
+    }
+    
+    char characterL = 'a';
+    for (int integerL = 97; integerL < 123; ++integerL && ++characterL) {
+        cout << characterL << '\t' << integerL << '\n'; 
     }
 }
