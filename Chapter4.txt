@@ -74,4 +74,17 @@ Review:
     24. How do you write a for-loop that prints every element of a vector? - use
     a loop and a reference pointer
 
-    25. What does vector<char> alphabet(26); do? - 
+    25. What does vector<char> alphabet(26); do? - creates a vector called
+    alphabet that contains 26 spaces
+
+    26. Describe what push_back() does to a vector? - enters a value into the 
+    end of the vector
+
+    27. What does vector's member size() do? give the number of indices the
+    vector contain
+
+    28. What makes vector so popular/useful? - there is a library made to use
+    along with it
+
+    29. How do you sort the elements of a vector? - by calling the sort() 
+    function from the vector library
