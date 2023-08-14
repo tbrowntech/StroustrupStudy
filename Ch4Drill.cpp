@@ -7,64 +7,98 @@
 
 using namespace std;
 
-int main() {
-    vector<double> nums;
-    double num;
-    int i = 0;
-    while (i < 2) {
-        cin >> num;
-        nums.push_back(num);
-        i++;
-        if (i != 1) {
+constexpr double CM_M_CONV_RATIO {0.01};
+constexpr double IN_M_CONV_RATIO {2.54*CM_M_CONV_RATIO};
+constexpr double FT_M_CONV_RATIO {12.0*IN_M_CONV_RATIO};
+const vector<string> legal_units {"cm", "m", "in", "ft"};
 
-            auto smaller = min_element(begin(nums), end(nums));
-            auto larger = max_element(begin(nums), end(nums));
-            if (end(nums) != smaller && larger != smaller) {
-                cout << "The smaller value is: " << *smaller << endl;
-            }
+bool is_legal_unit(string unit)
+{
+    bool is_legal {false};
 
-            if (end(nums) != larger && larger != smaller) {
-                cout << "The larger value is: " << *larger << endl;
-            }
-        
-            if (smaller == larger) {
-                cout << "the numbers are equal" << endl;
-            }
+    for (string legal_unit: legal_units)
+        if (legal_unit == unit)
+            is_legal = true;
 
-            if (abs(smaller - larger) <= 0.01 && larger != smaller) {
-                cout << "the numbers are almost equal" << endl;
+    return is_legal;
+}
+
+double convert_to_mts(double amount, string units)
+{
+    double mts {0};
+
+    if (units == "ft")
+        mts = amount*FT_M_CONV_RATIO;
+    else if (units == "in")
+        mts = amount*IN_M_CONV_RATIO;
+    else if (units == "cm")
+        mts = amount*CM_M_CONV_RATIO;
+    else
+        mts = amount;
+
+    return mts;
+}
+
+void print_legal_units()
+{
+    cout << "\tcm for centimeters\n" << "\tm for meters\n"
+        << "\tin for inches\n" << "\tft for feet\n";
+}
+
+int main()
+{
+    double a {0}; 
+    string unit {""};
+    double mts {0};
+    double smallest {0}; 
+    double largest {0}; 
+    double sum {0};
+    int count {0};
+    vector<double> values;
+    
+    cout.precision(15);
+
+    cout << "Insert an amount followed by a unit string. Valid units are:\n";
+    print_legal_units();
+
+    while (cin >> a >> unit){
+        if (is_legal_unit(unit)){
+            mts = convert_to_mts(a, unit);
+            if (count == 0){
+                cout << a << unit << " (" << mts << "m) "
+                    << " is the first number\n";
+                smallest = mts;
+                largest = mts;
             }
+            else if (mts < smallest){
+                cout << a << unit << " (" << mts << "m) "
+                    << " the smallest so far\n";
+                smallest = mts;
+            }
+            else if (mts > largest){
+                cout << a << unit << " (" << mts << "m) "
+                    << " the largest so far\n";
+                largest = mts;
+            }
+            ++count;
+            sum += mts;
+            values.push_back(mts);
+        }
+        else {
+            cout << unit << " is an illegal unit in this program. Please use:\n";
+            print_legal_units();
         }
     }
-    
-    /*for (int i = 0; i < nums.size(); ++i) {
-        cout << nums[i] << endl;
-    }*/
 
+    cout << "Smallest value: " << smallest << " meters\n";
+    cout << "Largest value: " << largest << " meters\n";
+    cout << "Number of values: " << count << '\n';
+    cout << "Sum of values: " << sum << " meters\n";
+
+    cout << "Sorted list of values:\n";
+    sort(values);
+    for (double value: values)
+        cout << '\t' << value << " meters\n";
     
-  
-    /*int i = 0;
-    double number1, number2;
-    cin >> number1;
-    cin >> number2;
-    while (i < 1) {
-        if (number1 < number2) {
-            cout << "the smaller value is: " << number1 << endl;
-            cout << "the larger value is: " << number2 << endl;
-            if (abs(number1 - number2) <= 0.01) {
-            cout << "the numbers are almost equal" << endl;
-        }
-        } 
-        else if (number2 < number1) {
-            cout << "the smaller value is: " << number2 << endl;
-            cout << "the larger value is: " << number1 << endl;
-            if (abs(number1 - number2) <= 0.01) {
-            cout << "the numbers are almost equal" << endl;
-        }
-        }
-        else if (number1 == number2) {
-            cout << "the numbers are equal" << endl;
-        } 
-        i++;
-    }*/
+    return 0;
 }

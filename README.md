@@ -1,2 +1,2 @@
 # StroustrupStudy
-Review questions and exercises from Programing: Principles and Practice Using C++
+Review questions and exercises from Programming: Principles and Practice Using C++
