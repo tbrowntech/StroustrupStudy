@@ -1,0 +1,77 @@
+Review:
+    1. What is a computation? - When a computer takes in an input and produces 
+    an output.
+
+    2. What do we mean by inputs and outputs to a computation? - an input is
+    something from the user (mouse click, keystroke), an output is an action 
+    taken by a computer (print to console)
+
+    3. What are the three requirements a programmer should keep in mind when
+    expressing computations? - express them correctly, simply, and efficiently
+
+    4. What does an expression do? - computes a value from a number of operands
+
+    5. What is the difference between a statement and an expression, as 
+    described in this chapter? - an expression statement is an expression
+    terminated with a semi-colon
+
+    6. What is an lvalue? Why do these operators, and not the others, require an
+    lvalue? - something that points to a specific memory location
+
+    7. What is a constant expression? - an expression whose value will not 
+    change throughout the life of the program
+
+    8. What is a literal? - constant values that are assigned to constant 
+    variables
+
+    9. What is the symbolic constant and why do we use them? - a constant 
+    identifier, used to distinguish
+
+    10. What is a magic constant? - use of a literal without mentioning where 
+    that literal came from
+    
+    11. What are some operators that we can use for integers and floating-point
+    values? - arithmetic operators
+
+    12. What operators can be used for integers but not on floating-point 
+    values? - modulo and bitwise operators
+
+    13. What are some operators that can be used for strings? - ==,!=,<,<=,>,>=,
+    <=>
+
+    14. When would a programmer prefer a switch-statement to an if-statment? - 
+    when an if statement start to become embedded with more if statements
+
+    15. What are some common problems with switch-statements? - many things can 
+    be a problem, duplication is one of them
+    
+    16. What is the function of each part of the header line in a for-loop, and
+    in what sequence should they be executed? - initializer, condition, and
+    increment
+
+    17. When should the for-loop be used and when should the while-loop be used?
+    - use a for-loop whenever an intializer, condition, and incrememnt can be
+    defined; otherwise, use a while-loop
+
+    18. How do you print the numeric value of a char? - use the + operator in   
+    front of the char
+
+    19. Describe what the line char foo(int x) means in a function definition. -
+    it's a function returning a char and taking an int as a parameter
+
+    20. When should you define a separate function for part of a program? - when
+    a that part of the program can be included in something by itself, as well
+    as when that thing needs to be repeated throughout the program
+
+    21. What can you do to an int that you cannot do to a string? - you can do 
+    any kind of arithmetic
+
+    22. What can you sto to a string that you cannot do to an int? - iterate
+    through it
+
+    23. What is the index of the third element of a vector? - [2]
+
+    24. How do you write a for-loop that prints every element of a vector? - use
+    a loop and a reference pointer
+
+    25. What does vector<char> alphabet(26); do? - 

@@ -4,11 +4,11 @@ using std::cout;
 using std::endl;
 
 int main() {
-    int counter = 5;
-
-    while(counter--) {
-        cout << "I am an awesome program." << endl;
-    }
+    char x = 'x';
+    char y = 'y';
+    cout << +x + 1 << endl;
+    cout << y << endl;
+    cout << +y << endl;
 
     return 0;
 }
