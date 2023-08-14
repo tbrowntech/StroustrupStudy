@@ -4,11 +4,9 @@ using std::cout;
 using std::endl;
 
 int main() {
-    char x = 'x';
-    char y = 'y';
-    cout << +x + 1 << endl;
-    cout << y << endl;
-    cout << +y << endl;
+    int x0 = arena(7);
+    int x1 = area(7);
+    int x2 = area("seven", 2);
 
     return 0;
 }
