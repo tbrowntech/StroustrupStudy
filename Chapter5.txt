@@ -71,4 +71,9 @@ Review
     20. What are the steps in debugging a program? - get the program to compile,
     get the program to link, get the program to do what it is supposed to do
 
+    21. Why does commenting help when debugging? - you can write notes as you goes
+    along to show what you know works, etc. 
+
+    22. How does testing differ from debugging? - testing is more for logical 
+    errors, while debugging is dealing with the other errors
     
