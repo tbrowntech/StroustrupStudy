@@ -1,0 +1,33 @@
+Review
+
+    1. Name for major types of errors and briefly define each one. - 
+    compile-time error: an error found by the compiler; link-time errors: an 
+    error found by the linker; run-time error: errors found by checks in a
+    running program; logic errors: an error created by misuse of logic by a 
+    programmer
+
+    2. What kinds of errors can we ignore in student programs? - logical errors
+
+    3. What guarantees should every completed project offer? - the code will
+    compile and run
+
+    4. List three approaches we can take to eliminate errors in programs and 
+    produce acceptable software. - organize software to minimize errors, 
+    eliminate most of the errors we made through debugging and testing, make 
+    sure the remaining errors are not serious
+
+    5. Why do we hate debugging? - it can take a lot of time and difficulty to 
+    figure out the problem
+
+    6. What is a syntax error? - won't compile because syntax is incorrect or
+    missing
+
+    7. What is a type error? - a type that is assigned or initialized with a 
+    different type
+
+    8. What is a linker error? - when the linker cannot find an object or std_lib_facilities
+
+    9. What is a logic error? - an error that a programmer makes in the code 
+    that cannot be inferred by the compiler
+
+    10. List four potential source of program errors discussed in the text. - 
