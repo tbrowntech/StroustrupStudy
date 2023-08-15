@@ -2,23 +2,19 @@
 
 double ctok(double c) // converts Celsius to Kelvin
     {
-        double k = c + 273.15;
-        return k;
+        if (c > -273.15) {
+            double k = c + 273.15;
+            return k;
+        } else {
+            cout << "error: value below absolute zero entered.\n";
+            return c;
+        } 
     }
 
 int main() {
     double c = 0;
     cin >> c;
-    try {        
-        if (c > -273.15) {
-            double k = ctok(c);
-            cout << k << " Kelvins\n";
-        } else {
-            throw (c);
-        }
-    }
-    catch (double belowAbsZero) {
-        cout << "You have entered a value below absolute zero.\n";
-        cout << "value entered: " << belowAbsZero << " degrees Celcius\n";
-    }   
+
+    double calc = ctok(c);
+    cout << calc << endl;
 }
