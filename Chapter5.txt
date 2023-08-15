@@ -31,3 +31,44 @@ Review
     that cannot be inferred by the compiler
 
     10. List four potential source of program errors discussed in the text. - 
+    poor specifications, incomplete programs, unexpected arguments, unexpected
+    input, unexpected state, logical errors
+
+    11. How do you know if a result is plausible? What techniques do you have to
+    answer such questions? - if the outcome was close to what you are expecting,
+    know what you're building before you start building
+
+    12. Compare and contrast having the caller of a function handle a run-time 
+    error vs. the called function's handling the run-time error. - a caller 
+    handling the error would be for a situation when the function is
+    inaccessible, such as in a library; having the called function handle the 
+    error can be nice because in the future if anything with error handling
+    needs to be changed, it can be changed in one place 
+
+    13. Why is using exceptions a better idea than returning an "error value? -
+    error values can be difficult to figure out what is going on because it 
+    requires looking up the error, where an exception can define the error in 
+    the exception so it can be found easier
+
+    14. How do you test if an input operation succedded? - by having the program
+    give some sort of output that the input was received properly
+
+    15. Describe the process of how exceptions are thrown and caught? - use 
+    throw to handle an error and catch to respond to the error
+
+    16. Why, with a vector called v, is v[v.size()] a range error? What would be
+    the result of calling this? - it goes one above the range; it would give an
+    out-of-range error
+
+    17. Define pre-condition and post-condition? - a pre-condition must be true
+    before the function and a post-condition must be true after the function
+
+    18. When would you not test a pre-condition? - if it slows down the code, if
+    no bad arguments are given, if it's too complicated to checks
+
+    19. When would you not test a post-condition? - same reasons for pre
+
+    20. What are the steps in debugging a program? - get the program to compile,
+    get the program to link, get the program to do what it is supposed to do
+
+    
