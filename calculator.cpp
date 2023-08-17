@@ -11,25 +11,33 @@ int main() {
     if (!cin) error("no first operand");
     for (char op; cin >> op;)
     {
-        switch(op)
+        if (op != 'x')
         {
-            case '+':
-                lval += rval;
-                break;
-            case '-':
-                lval -+ rval;
-                break;
-            case '*':
-                lval *= rval;
-                break;
-            case '/':
-                lval /= rval;
-                break;
-            default:
-                cout << "Result: " << lval << '\n';
-                keep_window_open();
-                return 0;
+            cin >> rval;
         }
+        if (!cin)
+        {
+            error("no first operand");
+        }
+            switch(op)
+            {
+                case '+':
+                    lval += rval;
+                    break;
+                case '-':
+                    lval -+ rval;
+                    break;
+                case '*':
+                    lval *= rval;
+                    break;
+                case '/':
+                    lval /= rval;
+                    break;
+                default:
+                    cout << "Result: " << lval << '\n';
+                    keep_window_open();
+                    return 0;
+            }
     }
     error("bad expression");
 }
