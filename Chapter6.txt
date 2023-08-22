@@ -47,4 +47,11 @@ Review
     reasons. One: because number is a grammar, two: because number is not very
     descriptive for a function in this case. 
 
-    12. 
+    12. What is a token? - A token is a sequence of characters that represents 
+    something we consider a unit, such as a number or an operator. 
+
+    13. What is a grammar? A grammar rule? - A set of instructions about how to 
+    write statements that are valid. Specify how characters and words can be put
+    one after the other, to form valid statements. 
+
+    14. 
