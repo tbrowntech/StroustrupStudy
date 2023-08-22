@@ -1,0 +1,38 @@
+Review
+
+    1. What do we mean by "Programming is understanding"? - When someone is able 
+    to write a program for something, it shows that they truly understand it. 
+    Programming is more than just writing code. You don't just come up with an 
+    idea and start to write a program. You should take the time to design it,
+    etc.
+
+    2. Write a short analysis of what the calculator should be able to do. - The 
+    calculator should be able to take an integer or float and perform 
+    mathematical calculcations such as addition, subtraction, division, and 
+    multipllication. It would be able to use parentheses to help with the order
+    of operations. An input should produce an output.
+
+    3. How do you break a problem up into smaller manageable parts? - You 
+    organize the parts that go together and work on those methodically. You 
+    solve the parts that can be solved first and then work on the other parts, 
+    much like splitting a program up into separate functions.
+
+    4. Why is creating a small, limited version of a program a good idea? - This 
+    will get you started with what needs to happen. This allows for testing to 
+    take place because you can test the small parts as you go. 
+
+    5. Why is feature creep a bad idea? - This ads more to the program than is 
+    necessary and allows more possibilities for errors to arise.
+
+    6. What are the three main phases of software development? - Analysis, 
+    design, and implementation.
+
+    7. What is a use case? - It is how a particular part of a program is going 
+    to be used. According to the glossary: a specific (typically simple) use of
+    a program meant to test its functionality and demonstrate its purpose.
+
+    8. What is the purpose of testing? - Testing helps you to avoid bugs and 
+    errors before the code gets sent to production.
+
+    9. According to the outline in the chapter, describe the difference between
+    a Term, and Expression, a Number, and a Primary. - 
