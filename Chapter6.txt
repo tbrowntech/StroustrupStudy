@@ -39,4 +39,12 @@ Review
     -point-literal. A primary is a number or '(' followed by an expression 
     followed by ')'. 
 
-    10. Break down (17+4)(5-1). - 
+    10. Break down (17+4)(5-1). - ( is a primary, 17 + 4 is an expression, ) is 
+    a primary, * is a term ( is a primary, 5 - 1 is an expression, ) is a 
+    primary.
+
+    11. Why does the program not have a function called number()? - For a couple
+    reasons. One: because number is a grammar, two: because number is not very
+    descriptive for a function in this case. 
+
+    12. 
