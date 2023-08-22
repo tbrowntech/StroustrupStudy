@@ -54,4 +54,12 @@ Review
     write statements that are valid. Specify how characters and words can be put
     one after the other, to form valid statements. 
 
-    14. 
+    14. What is a class? What do we use classes for? - A user-defined type that 
+    may contain data members, function members, and member types. Used to create
+    and manage new objects and support inheritance. 
+
+    15. How can we provide a default value for a member of a class? - By writing
+    an initializer. 
+
+    16. In the expression function, why is the default for the switch
+    -statement to "put back" the token? - 
