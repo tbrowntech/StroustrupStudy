@@ -35,4 +35,8 @@ Review
     errors before the code gets sent to production.
 
     9. According to the outline in the chapter, describe the difference between
-    a Term, and Expression, a Number, and a Primary. - 
+    a Term, and Expression, a Number, and a Primary. - A number is a floating
+    -point-literal. A primary is a number or '(' followed by an expression 
+    followed by ')'. 
+
+    10. Break down (17+4)(5-1). - 
