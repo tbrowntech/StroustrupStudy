@@ -74,4 +74,34 @@ Review
     19. Why is the remainder (modulus) operation, %, difficult to implement in
     the term()? - It performs differently than the other operations. 
 
-    20. What do we use the two data members of the Token class for? - 
+    20. What do we use the two data members of the Token class for? - Kind for
+    the type of token that we are dealing with and value for the number that is 
+    stored.
+
+    21. Why do we sometimes split a class's members into private and public 
+    members? - We only put something in public if it absolutely needs to be 
+    accessed by something outside the class. Otherwise, for security reasons, 
+    we leave everything private.
+
+    22. What happens in the Token-stream class when there is a token in the 
+    buffer and the get() function is called? - The token is accessed with the 
+    get() function.
+
+    23. Why were the ';' and 'q' characters added to the switch-statement in the 
+    get() function of the Token-stream class? - They were characters that were 
+    entered so they needed to be got. 
+
+    24. When should we start testing our program? - From the beginning so that 
+    we know that it is working as we are building it. This also helps us to keep
+    things simpler, because the more simple something is, the easier it is to 
+    test. 
+
+    25. What is a user-defined type? Why would we want one? - It is a class and
+    we use it to flexibly add types when we require them.
+
+    26. What is the interface to a C++ "user-defined type"? - A class.
+
+    27. Why do we want to rely on libraries of code? - Libraries have been 
+    written and tested to be usable and fast. They can save us time because the
+    code is already written and we can spend that time on other parts of our
+    program. 
