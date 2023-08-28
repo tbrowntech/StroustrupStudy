@@ -1,22 +1,3 @@
-
-//
-// This is example code from Chapter 6.7 "Trying the second version" of
-// "Software - Principles and Practice using C++" by Bjarne Stroustrup
-//
-
-/*
-    This file is known as calculator02buggy.cpp
-
-    I have inserted 5 errors that should cause this not to compile
-    I have inserted 3 logic errors that should cause the program to give wrong results
-
-    First try to find an remove the bugs without looking in the book.
-    If that gets tedious, compare the code to that in the book (or posted source code)
-
-    Happy hunting!
-
-*/
-
 #include "std_lib_facilities.h"
 
 //------------------------------------------------------------------------------
@@ -53,7 +34,8 @@ Token_stream::Token_stream()
 
 //------------------------------------------------------------------------------
 
-// The putback() member function puts its argument back into the Token_stream's buffer:
+// The putback() member function puts its argument back into the Token_stream's 
+// buffer:
 void Token_stream::putback(Token t)
 {
     if (full) error("putback() into a full buffer");
@@ -77,7 +59,8 @@ Token Token_stream::get()
     switch (ch) {
     case '=':    // for "print"
     case 'x':    // for "quit"
-    case '(': case ')': case '+': case '-': case '*': case '/':
+    case '(': case ')': case '{': case '}': case '+': case '-': case '*': 
+    case '/':
         return Token(ch);        // let each character represent itself
     case '.':
     case '0': case '1': case '2': case '3': case '4':
@@ -116,6 +99,13 @@ double primary()
         if (t.kind != ')') error("')' expected");
             return d;
     }
+    case '{':
+    {
+        double d = expression();
+        t = ts.get();
+        if (t.kind != '}') error("'}' expected");
+            return d;
+    }
     case '8':            // we use '8' to represent a number
         return t.value;  // return the number's value
     default:
@@ -135,14 +125,27 @@ double term()
     while (true) {
         switch (t.kind) {
         case '*':
+        {
             left *= primary();
             t = ts.get();
             break;
+        }
         case '/':
         {
             double d = primary();
             if (d == 0) error("divide by zero");
             left /= d;
+            t = ts.get();
+            break;
+        }
+        case '%':
+        {
+            int i1 = narrow_cast<int>(left);
+            int i2 = narrow_cast<int>(primary());
+            if (i2 == 0) {
+                error("%: divide by zero");
+            }
+            left = i1 % i2;
             t = ts.get();
             break;
         }
@@ -191,8 +194,8 @@ try
         Token t = ts.get();
         double val;
 
-        if (t.kind == 'x') break; // 'q' for quit
-        if (t.kind == '=')        // ';' for "print now"
+        if (t.kind == 'x') break; // 'x' for quit
+        if (t.kind == '=')        // '=' for "print now"
             cout << "=" << val << '\n';
         else
             ts.putback(t);
