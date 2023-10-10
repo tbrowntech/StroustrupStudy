@@ -3,27 +3,24 @@
 
 using namespace std;
 
+class User {
+public:
+    string FirstName;
+    string LastName;
+    int Age;
+    string Email;
+};
+
 int main() {
-    double sum = 0;
-    double high_temp = {};
-    double low_temp = {};
-    int no_of_temps = 0;
+    User user1;
 
-    vector<double> temps;
+    cout << "First Name: " << user1.FirstName << endl;
+    cout << "Last Name: " << user1.LastName << endl;
+    cout << "Age: " << user1.Age << endl;
+    cout << "Email: " << user1.Email << endl;
 
-    for (double temp; cin >> temp;) {
-        ++no_of_temps;
-        sum += temp;
-        if (temp > high_temp) {
-            high_temp = temp;
-        }
-        if (temp < low_temp) {
-            low_temp = temp;
-        }
-    }    
-    cout << "High temperature: " << high_temp << endl;
-    cout << "Low temperature: " << low_temp << endl;
-    if (no_of_temps != 0) {
-        cout << "Average temperature: " << sum/no_of_temps << endl;
-    }
+    int test;
+    cout << test;
+
+    cin.get();
 }
