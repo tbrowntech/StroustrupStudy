@@ -9,6 +9,10 @@ public:
     string LastName;
     int Age;
     string Email;
+
+    User(){
+        
+    }
 };
 
 int main() {
