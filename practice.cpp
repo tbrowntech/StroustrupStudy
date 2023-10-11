@@ -10,21 +10,38 @@ public:
     int Age;
     string Email;
 
-    User(){
-        
+    // empty default constructor
+    // User(){}
+    // default constructor
+    User() {
+        FirstName = "nn";
+        LastName = "nln";
+        Age = 0;
+        Email = "not set";
+    }
+    // params constructor
+    User(string fName, string lName, int age) {
+        FirstName = fName;
+        LastName = lName;
+        Age = age;
+        Email = fName + "." + lName + "@mail.com";
     }
 };
 
+void getUserInfo(User u) {
+    cout << "First Name: " << u.FirstName << endl;
+    cout << "Last Name: " << u.LastName << endl;
+    cout << "Age: " << u.Age << endl;
+    cout << "Email: " << u.Email << endl;
+}
+
 int main() {
-    User user1;
+    User user1("Taylor", "Brown", 32);
+    User user2("Kallie", "Brown", 33);
 
-    cout << "First Name: " << user1.FirstName << endl;
-    cout << "Last Name: " << user1.LastName << endl;
-    cout << "Age: " << user1.Age << endl;
-    cout << "Email: " << user1.Email << endl;
-
-    int test;
-    cout << test;
+    getUserInfo(user1);
+    cout << endl;
+    getUserInfo(user2);
 
     cin.get();
 }
