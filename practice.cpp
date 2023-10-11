@@ -10,8 +10,6 @@ public:
     int Age;
     string Email;
 
-    // empty default constructor
-    // User(){}
     // default constructor
     User() {
         FirstName = "nn";
